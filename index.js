@@ -12,7 +12,7 @@ button.addEventListener('click', function() {
   // Adicione o elemento <p> como filho do inputElement
   inputElement.parentNode.appendChild(pElement);
 
-  // Limpe o campo de entrada e o elemento <p> após 2 segundos (2000 milissegundos)
+  // Limpe o campo de entrada e o elemento <p> após 10segundos (10 000 milissegundos)
   setTimeout(function() {
     inputElement.value = "";
     pElement.remove(); // Remove o elemento <p>
