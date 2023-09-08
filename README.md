@@ -6,7 +6,7 @@ Exercício de prática de Javascript para converter outros modos de escrita de p
    - concluir-tarefa ao converter sairá: concluirTarefa.
    - concluir_tarefa ao converter sairá: concluirTarefa.
   
-   - Ao clicar no botão a conversão sera feita e o valor em camel case sairá logo abaixo do botão, ao passar 10 segundos depois da conversão o campo input e a conversão serao zerados.
+   - Ao clicar no botão a conversão será feita e o valor em camel case sairá logo abaixo do botão, ao passar 10 segundos depois da conversão o campo input e a conversão serao zerados.
   
 # Tecnologia usada:
   * Html
