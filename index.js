@@ -26,5 +26,5 @@ button.addEventListener('click', function() {
 
   // Adicione o elemento <p> como filho do inputElement
   inputElement.parentNode.appendChild(pElement)
-   pElement.textContent = "" ,10000);
+   setTimeOut(pElement.textContent = "" ,10000);
 });
