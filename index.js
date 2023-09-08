@@ -1,5 +1,5 @@
 let symbols = ["-","_"]
-let str= "Para_quedas";
+let str= document.querySelector(".myInput").value;
 function toCamelCase(str){
 
 const haveSimbol = symbols.some(symbol =>str.includes(symbol))
