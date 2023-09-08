@@ -1,3 +1,20 @@
+let symbols = ["-","_"]
+let str= "Para_quedas";
+function toCamelCase(str){
+
+const haveSimbol = symbols.some(symbol =>str.includes(symbol))
+
+if(haveSimbol){
+   str= str.replace(/[-_][a-z]/g, match => match.toUpperCase())
+  str = str.replace(/-|_/g,"")
+  return str
+}else{
+  return str
+}
+}
+
+
+
 button.addEventListener('click', function() {
   const inputElement = document.querySelector(".myInput");
   const inputValue = inputElement.value;
