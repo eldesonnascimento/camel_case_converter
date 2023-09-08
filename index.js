@@ -2,9 +2,9 @@ let symbols = ["-","_"]
 let str= document.querySelector(".myInput").value;
 function toCamelCase(str){
 
-const haveSimbol = symbols.some(symbol =>str.includes(symbol))
+const haveSymbol = symbols.some(symbol =>str.includes(symbol))
 
-if(haveSimbol){
+if(haveSymbol){
    str= str.replace(/[-_][a-z]/g, match => match.toUpperCase())
   str = str.replace(/-|_/g,"")
   return str
