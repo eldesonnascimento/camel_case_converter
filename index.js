@@ -1,18 +1,3 @@
-const button = document.querySelector(".button");
-
-let symbols = ["-", "_"];
-
-function toCamelCase(str) {
-  const haveSymbol = symbols.some(symbol => str.includes(symbol));
-  if (haveSymbol) {
-    str = str.replace(/[-_][a-z]/g, match => match.toUpperCase());
-    str = str.replace(/-|_/g, "");
-    return str;
-  } else {
-    return str;
-  }
-}
-
 button.addEventListener('click', function() {
   const inputElement = document.querySelector(".myInput");
   const inputValue = inputElement.value;
@@ -25,6 +10,11 @@ button.addEventListener('click', function() {
   pElement.textContent = convertedValue;
 
   // Adicione o elemento <p> como filho do inputElement
-  inputElement.parentNode.appendChild(pElement)
-   
+  inputElement.parentNode.appendChild(pElement);
+
+  // Limpe o campo de entrada e o elemento <p> após 2 segundos (2000 milissegundos)
+  setTimeout(function() {
+    inputElement.value = "";
+    pElement.remove(); // Remove o elemento <p>
+  }, 10000); // 1000 milissegundos = 1 segundo.
 });
