@@ -19,11 +19,12 @@ button.addEventListener('click', function() {
   const convertedValue = toCamelCase(inputValue);
 
   // Crie um novo elemento <p>
-  const pElement = document.createElement("p");
+  let pElement = document.createElement("p");
 
   // Defina o conteúdo do elemento <p>
   pElement.textContent = convertedValue;
 
   // Adicione o elemento <p> como filho do inputElement
-  setTimeOut(inputElement.parentNode.appendChild(pElement),10000);
+  inputElement.parentNode.appendChild(pElement)
+   pElement.textContent = "" ,10000);
 });
