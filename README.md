@@ -2,7 +2,7 @@
 
 <img src="./img.png">
 
-  - Exercício de prática de Javascript para converter outros modos de escrita de programação para camel case(é uma convenção de nomenclatura usada por developers para deixar o seu código mais legível para outros DEVs, primeira letra minuscula e a primeira letra da próxima palavra maiúscula ex:construirPredio,casaPequena,fazerPagamentoCartao)
+  - Exercício de prática de Javascript para converter outros modos de escrita de programação para camel case(é uma convenção de nomenclatura usada por developers para deixar o seu código mais legível para outros DEVs, a primeira letra da próxima palavra ficará maiúscula ex:construirPredio,casaPequena,fazerPagamentoCartao).
 
 # Modo de usar:
 
