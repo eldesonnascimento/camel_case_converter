@@ -1,3 +1,4 @@
+<img src="./img.png">
 # camel_case_converter
 Exercício de prática de Javascript para converter outros modos de escrita de programação para camel case(é uma convenção de nomenclatura usada por developers para deixar o seu código mais legível para outros DEVs, primeira letra minuscula e a primeira letra da próxima palavra maiúscula ex:construirPredio,casaPequena,fazerPagamentoCartao)
 # Modo de usar:
