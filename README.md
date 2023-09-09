@@ -8,7 +8,7 @@
 
 - Digite uma palavra/frase em outro formato de escrita de programação que é com "-"(traço) ou "_"(underline).
 
-  * exemplo de uma palavra/frase em outro formato de escrita de programação:
+* Exemplo de uma palavra/frase em outro formato de escrita de programação:
   
    -  concluir-tarefa ao converter sairá: concluirTarefa.
    -  concluir_tarefa ao converter sairá: concluirTarefa.
